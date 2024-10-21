@@ -8,10 +8,10 @@ from collections import defaultdict
 st.title("Drone Tracking and Trailing GUI")
 
 # Load the YOLO model
-model = YOLO("C:\\Users\\Asus\\Downloads\\best (1).pt")
+model = YOLO("C:\\Users\\Asus\\Downloads\\best1.pt")
 
 # Display the video
-video_path = "C:\\Users\\Asus\\Downloads\\videoplayback (1).mp4"
+video_path = "C:\\Users\\Asus\\Downloads\\videoplayback1.mp4"
 
 if video_path:
     # Create a video capture object
